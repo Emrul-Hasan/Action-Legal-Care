@@ -6,13 +6,17 @@ A user can eassily create an account and get premium services. This site has aut
 Live Link [Action Legal Care]().
 
 ## Features
-User Authentication
-Login page
-Sign up page
-Dynamic route
-Smoothe user experience
-Blog page
-Responsive
+
+<ul>
+                            <li> User Authentication</li>
+                         <li>Sign up page</li>
+                          <li>Login page</li>
+                          <li>Dynamic Links</li>
+                        <li>Dynamic route</li>
+                        <li>Smoothe user experience</li>
+                         <li>Blog page</li>
+                           <li>Responsive</li>
+  </ul>
 
 ## Technology Used
 
