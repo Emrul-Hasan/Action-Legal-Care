@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBq6uj6TMVj9HQACvlfVhnGhQ37WhCs2BY",
-  authDomain: "genius-car-services-ac87e.firebaseapp.com",
-  projectId: "genius-car-services-ac87e",
-  storageBucket: "genius-car-services-ac87e.appspot.com",
-  messagingSenderId: "325068323039",
-  appId: "1:325068323039:web:07ef021e9bb8f22a57116a"
+  apiKey: "AIzaSyAw7wzY3AjaVGl_ctbiuYmUkc5dV_gV1_4",
+  authDomain: "action-legal-care.firebaseapp.com",
+  projectId: "action-legal-care",
+  storageBucket: "action-legal-care.appspot.com",
+  messagingSenderId: "656294670135",
+  appId: "1:656294670135:web:c2192140f23ca2cf2474b2"
 };
 
 // Initialize Firebase

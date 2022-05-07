@@ -3,7 +3,7 @@ import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import Loading from '../../Shared/Loading/Loading';
-import google from '../../../images/banner/banner1.jpg'
+import google from '../../../images/social/google.png'
 
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth)
@@ -37,7 +37,7 @@ const SocialLogin = () => {
             <div className='justify-content-around'>
                 <button
                     onClick={() => signInWithGoogle()}
-                    className=' btn btn-info w-50 d-block mx-auto my-5'>
+                    className=' btn btn-info w-25 d-block mx-auto my-5'>
                         <img style={{ width: '30px' }} src={google} alt="" />
                     <span className='px-2'>Google Sign In</span>
                    

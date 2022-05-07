@@ -7,15 +7,15 @@ const Checkout = () => {
     const { serviceId } = useParams();
     const handleSubmit = event => {
         event.preventDefault();
-        toast('Your Booking is confirmed.');
+        toast('Your Appointment is confirmed.');
     }
     return (
         <div className='container p-2'>
             <div>
-                <h3 className='text-center'>Enter Information for your booking</h3>
+                <h3 className='text-center'>Enter Information for your Appointment</h3>
             </div>
             <div>
-                <h5 className='text-center'>You choosed service: {serviceId}</h5>
+                <h5 className='text-center'>You Chossed Service: {serviceId}</h5>
             </div>
             <Form onSubmit={handleSubmit}>
                 <Row className="mb-3">
@@ -32,12 +32,7 @@ const Checkout = () => {
 
                 <Form.Group className="mb-3" controlId="formGridAddress1">
                     <Form.Label>Address</Form.Label>
-                    <Form.Control placeholder="1234 Main St" />
-                </Form.Group>
-
-                <Form.Group className="mb-3" controlId="formGridAddress2">
-                    <Form.Label>Address 2</Form.Label>
-                    <Form.Control placeholder="Apartment, studio, or floor" />
+                    <Form.Control placeholder="" />
                 </Form.Group>
 
                 <Row className="mb-3">
@@ -49,13 +44,13 @@ const Checkout = () => {
                     <Form.Group as={Col} controlId="formGridState">
                         <Form.Label>Service</Form.Label>
                         <Form.Select defaultValue="Choose...">
-                            <option>Choose...</option>
-                            <option>Wedding Photograph</option>
-                            <option>Event Photograph</option>
-                            <option>Birthday Photograph</option>
-                            <option>Wild-Life Photograph</option>
-                            <option>Portraits Photograph</option>
-                            <option>Landscapes Photograph</option>
+                            <option>Choose.</option>
+                            <option>Legal Information and Advice</option>
+                            <option>Consultation to Review Documents</option>
+                            <option>Preparation of Documents</option>
+                            <option>Representing Clients in Court</option>
+                            <option>Civil filing, rescue, declaration of rights and others</option>
+                            <option>Check Bounce, Money Laundering Case</option>
                         </Form.Select>
                     </Form.Group>
 
