@@ -4,7 +4,7 @@ import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify';
 import auth from '../../../firebase.init';
-import CustomLink from '../../Shared/CustomLink/CustomLink';
+import PreparedLink from '../../Shared/PreparedLink/PreparedLink';
 import Loading from '../../Shared/Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
 
@@ -68,7 +68,7 @@ const Register = () => {
                         </Button>
                     </Form>
                     {errorElement}
-                    <p className='text-center'>Already have an account ? <CustomLink to="/login" className='text-primary pe-auto text-decoration-none'>Login to your account</CustomLink> </p>
+                    <p className='text-center'>Already have an account ? <PreparedLink to="/login" className='text-primary pe-auto text-decoration-none'>Login to your account</PreparedLink> </p>
                 </div>
                 <SocialLogin></SocialLogin>
             </div>

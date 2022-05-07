@@ -4,7 +4,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import Loading from '../../Shared/Loading/Loading';
 import auth from '../../../firebase.init';
-import CustomLink from '../../Shared/CustomLink/CustomLink';
+import PreparedLink from '../../Shared/PreparedLink/PreparedLink';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -73,7 +73,7 @@ const Login = () => {
                             </Button>
                         </Form>
                         {errorElement}
-                        <p className='text-center'>Don't have an account ? <CustomLink to="/register" className='text-primary pe-auto text-decoration-none'>Register Now</CustomLink> </p>
+                        <p className='text-center'>Don't have an account ? <PreparedLink to="/register" className='text-primary pe-auto text-decoration-none'>Register Now</PreparedLink> </p>
                         <p className='text-center'><Button onClick={resetPassword} className='btn btn-danger border pe-auto text-decoration-none'>Forget Password?</Button></p>
                     </div>
                     <SocialLogin></SocialLogin>
