@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAw7wzY3AjaVGl_ctbiuYmUkc5dV_gV1_4",
-  authDomain: "action-legal-care.firebaseapp.com",
-  projectId: "action-legal-care",
-  storageBucket: "action-legal-care.appspot.com",
-  messagingSenderId: "656294670135",
-  appId: "1:656294670135:web:c2192140f23ca2cf2474b2"
+  apiKey:process.env.REACT_APP_apiKey ,
+  authDomain:process.env.REACT_APP_authDomain ,
+  projectId:process.env.REACT_APP_projectId ,
+  storageBucket:process.env.REACT_APP_storageBucket ,
+  messagingSenderId:process.env.REACT_APP_messagingSenderId ,
+  appId:process.env.REACT_APP_appId,
 };
 
 // Initialize Firebase
