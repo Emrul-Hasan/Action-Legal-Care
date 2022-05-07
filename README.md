@@ -19,10 +19,17 @@ Live Link [Action Legal Care]().
   </ul>
 
 ## Technology Used
+<ul>
+              <li>React js v-18.0.0</li>
+              <li>react router dom v-6.3.0</li>
+              <li>Bootstrap v-5.1.3</li>
+              <li>Firebase (Authentication & Hosting)</li>
+              <li>React firebase hooks v-5.0.</li>
+              
+</ul>
 
-React js v-18.0.0
-react router dom v-6.3.0
-Bootstrap v-5.1.3
-Firebase (Authentication & Hosting)
-React firebase hooks v-5.0.3
-React toastify v-8.2.0
+
+
+
+
+
