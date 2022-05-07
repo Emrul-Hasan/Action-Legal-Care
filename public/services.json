@@ -1,0 +1,44 @@
+[
+    {
+        "id": "625b17f90e92065b687ad60b",
+        "picture": "https://www.linkpicture.com/q/demo1.jpg",
+        "name": "Legal Information and Advice",
+        "price": 3500,
+        "about": " Explains the law and the legal system in general terms. The information is not tailored to a specific case and Legal advice applies the law, including statute and case law and legal principles to a particular situation. "
+    },
+    {
+        "id": "625b17f955330443ff703d71",
+        "picture": "https://www.linkpicture.com/q/demo2.jpg",
+        "name": "Consultation to Review Documents",
+        "price": 4500,
+        "about": "The first is to examine which internal documents are relevant. Another is for attorneys to meet their legal obligations when an opposing party requests relevant documents for litigation."
+    },
+    {
+        "id": "625b17f9a2e549d5af9411bc",
+        "picture": "https://www.linkpicture.com/q/demo3.jpg",
+        "name": "Preparation of Documents",
+        "price": 5000,
+        "about": "When a document needs to be reviewed, edited and approved by more than one person, good document management and control practices help prevent time-consuming missteps and confusion for all the parties involved."
+    },
+    {
+        "id": "625b17f9dc77939c1b9b25e8",
+        "picture": "https://www.linkpicture.com/q/demo4.jpg",
+        "name": "Representing Clients in Court",
+        "price": 5500,
+        "about": "Representing Clients in Immigration Court will provide you with clear and strategic guidance to help you prepare for any immigration court proceeding. Also to occupy the content so as not to disturb the peace."
+    },
+    {
+        "id": "625b17f9c8dbbad424f33a07",
+        "picture": "https://www.linkpicture.com/q/demo6_1.jpg",
+        "name": " Civil filing, rescue, declaration of rights and others",
+        "price": 1200,
+        "about": "The Civil Court has full jurisdiction to protect the interests of the parties in all cases by granting interim injunctions like stay.In respect of possession of land and deposits."
+    },
+    {
+        "id": "625b17f9da6830bca2aa46ca",
+        "picture": "https://www.linkpicture.com/q/demo5.jpg",
+        "name": "Check Bounce, Money Laundering Case",
+        "price": 1400,
+        "about": "In most of the transactions, it re-payment of loan for business purpose.These cheques bearing large amounts sometimes remain unpaid and are returned by the bank "
+    }
+]
